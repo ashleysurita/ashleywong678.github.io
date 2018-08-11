@@ -1,11 +1,11 @@
 # Site settings
 author: Ashley Wong
-title: 
+title: The Wong Code
 header-img: img/home-bg.png
 email: ashwong04@gmail.com
 copyright_name: Ashley Wong
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Debugging from Wong to right.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  naniatobaka
