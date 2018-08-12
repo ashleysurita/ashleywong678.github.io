@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "**Opening the Door**"
-date:       2018-08-12 02:17:23 +0000
+date:       2018-08-11 22:17:23 -0400
 permalink:  opening_the_door
 ---
 
