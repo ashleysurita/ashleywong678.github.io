@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rubys, gems, and shiny things- CLI Final Project"
-date:       2018-11-16 00:26:02 +0000
+date:       2018-11-15 19:26:03 -0500
 permalink:  rubys_gems_and_shiny_things-_cli_final_project
 ---
 
