@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Know thyself"
-date:       2018-10-02 00:34:01 +0000
+title:      "Know thy 'self'"
+date:       2018-10-01 20:34:02 -0400
 permalink:  know_thyself
 ---
 
