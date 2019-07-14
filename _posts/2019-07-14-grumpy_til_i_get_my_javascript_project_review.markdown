@@ -1,14 +1,12 @@
 ---
 layout: post
 title:      "Grumpy 'til I get my Javascript (Project Review)"
-date:       2019-07-14 13:47:59 +0000
+date:       2019-07-14 09:48:00 -0400
 permalink:  grumpy_til_i_get_my_javascript_project_review
 ---
 
 
 I don't think anyone says this, but the power of javascript is pretty great if you can figure out how to use it and remember all those querks.
-
-![](https://imgur.com/a/2LHwr29)
 
 The goal of this project was to take our existing rails project and render the same info with javascript instead of reroutinng with rails. Probably without Cernan's walkthrough videos, this would have been impossible since the syntax in this language is pretty different then what we are accustomed to. Here's a few things I've learned along the way:
 
