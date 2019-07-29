@@ -22,13 +22,19 @@ function () {
 }
 
 ```
-This is because global variables and variables declared with var do not support block scoping. However, variables declared with var do support functional scope, so they can't be accessed outside of the function they are declared in. Variables declared with let and const do. This means that declarations made with var can be accessed from outside of their initial scope, whereas declarations made with let and const are not. So we get an error when we do the following:
+This is because global variables and variables declared with var do not support block scoping. However, variables declared with var do support functional scope, so they can't be accessed outside of the function they are declared in. Variables declared with let and const do. This means that within a block (usually within {} curly braces), like a if, switch, for, or while loop, let and const are only accessable within the block but var is accessable within the functional scope even if it was declared in a block. So we get the following:
 ```
 function newFunc(){
-    var varVari = "I used var"
-    let letVari = "I used let"
-		const constVari = "I used const"
+    if(true){
+		  var varVari = "I used var"
+      let letVari = "I used let"
+		  const constVari = "I used const"
+		}
+    console.log(varVari)    //"I used var" => it's still accessable outside of the if block
+    console.log(letVari)    //Uncaught Reference error: letVari is not defined
+    console.log(constVari)    //Uncaught Reference error: constVari is not defined
 }
+
 console.log(varVari)    //Uncaught Reference error: varVari is not defined
 console.log(letVari)    //Uncaught Reference error: letVari is not defined
 console.log(constVari)    //Uncaught Reference error: constVari is not defined
